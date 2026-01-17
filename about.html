@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos | Humbert ATOROU</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Icon Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Specific adjustment for separate pages */
+        .section {
+            padding-top: 150px;
+            min-height: 80vh;
+        }
+    </style>
+</head>
+
+<body class="dark-theme">
+
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="nav-content">
+            <a href="index.html" class="logo">ATOROU<span class="dot">.</span></a>
+
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Accueil</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link active">À propos</a></li>
+                <li class="nav-item"><a href="education.html" class="nav-link">Formation</a></li>
+                <li class="nav-item"><a href="skills.html" class="nav-link">Compétences</a></li>
+                <li class="nav-item"><a href="projects.html" class="nav-link">Projets</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link cta-button">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">01. PROFIL</span>
+                <h2 class="section-title">À propos de moi</h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text glass-panel" data-aos="fade-right">
+                    <p class="highlight-p">Étudiant en génie logiciel passionné par le développement d’applications.</p>
+                    <p>Je m’intéresse particulièrement aux systèmes web, aux bases de données et aux architectures
+                        logicielles bien structurées. J’ai une approche méthodique de l’apprentissage, orientée
+                        pratique, avec une forte volonté de comprendre les concepts en profondeur (POO, bases de
+                        données, systèmes distribués, frameworks modernes).</p>
+                    <p>Mon objectif est de concevoir des solutions logicielles efficaces, sécurisées et maintenables,
+                        tout en continuant à renforcer mes compétences techniques et professionnelles.</p>
+
+                    <h3 class="subsection-title" style="margin-top: 30px; margin-bottom: 20px; color: var(--white);">
+                        Qualités Professionnelles</h3>
+                    <div class="qualities-grid"
+                        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">
+                        <div class="quality-item"
+                            style="display: flex; align-items: center; gap: 10px; color: var(--text-muted);">
+                            <i class="fas fa-check-circle" style="color: var(--primary);"></i> Curieux et autodidacte
+                        </div>
+                        <div class="quality-item"
+                            style="display: flex; align-items: center; gap: 10px; color: var(--text-muted);">
+                            <i class="fas fa-check-circle" style="color: var(--primary);"></i> Rigoureux
+                        </div>
+                        <div class="quality-item"
+                            style="display: flex; align-items: center; gap: 10px; color: var(--text-muted);">
+                            <i class="fas fa-check-circle" style="color: var(--primary);"></i> Capacité d’analyse
+                        </div>
+                        <div class="quality-item"
+                            style="display: flex; align-items: center; gap: 10px; color: var(--text-muted);">
+                            <i class="fas fa-check-circle" style="color: var(--primary);"></i> Apprentissage structuré
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer" style="padding-bottom: 20px;">
+        <p>Conçu et développé par <span class="highlight">Humbert ATOROU</span></p>
+        <p class="copyright">&copy; 2026. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
